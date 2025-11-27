@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/../config/database.php';
+require_once __DIR__ . '/../connection/connection.php';
 
 $sql = "
 CREATE TABLE IF NOT EXISTS chat_members (
@@ -15,4 +15,4 @@ CREATE TABLE IF NOT EXISTS chat_members (
 ";
 
 $connection->query($sql);
-echo "Chat members table created.\n";
+echo "Chat users table created.\n";
