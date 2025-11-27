@@ -15,4 +15,4 @@ CREATE TABLE IF NOT EXISTS chat_members (
 ";
 
 $connection->query($sql);
-echo "Chat users table created.\n";
+echo "Chat members table created.\n";
