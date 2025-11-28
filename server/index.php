@@ -19,8 +19,8 @@ $apis = $routes;
 if (isset($apis[$request])) {
     $controller_name = $apis[$request]['controllers']; 
     $method = $apis[$request]['method'];
-    if($controller_name == 'AiAnalyze.php') {
-        require_once "Ai/{$controller_name}";
+    if($controller_name == 'Analyze.php') {
+        require_once "AI/{$controller_name}";
             exit;
     }
     require_once "controllers/{$controller_name}.php";

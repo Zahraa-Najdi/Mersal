@@ -10,7 +10,7 @@ class UserService
     {
         $this->connection = $connection;
     }
-
+//CRUD functions are here
     public function getUsers($id)
     {
         try {

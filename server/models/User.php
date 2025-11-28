@@ -80,7 +80,7 @@ class User extends Model
     }
     public function setCreated_at(string $created_at): self
     {
-        $this->$created_at = $created_at;
+        $this->created_at = $created_at;
         return $this;
     }
     public function setUpdated_at(string $updated_at): self
